@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Each developer should create their own Main.cpp and do not add it to source control
+Main.cpp
