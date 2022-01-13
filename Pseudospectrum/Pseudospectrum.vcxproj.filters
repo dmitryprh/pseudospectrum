@@ -1,17 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Bidiagonalization">
+      <UniqueIdentifier>{564c59dd-7cda-4569-a7c8-77370da70f5a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c9ee3565-7710-41e6-8b5e-555fe6063b03}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Reader">
+      <UniqueIdentifier>{33d72667-de03-473f-9100-15898717f021}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BdMinlSingularValue">
+      <UniqueIdentifier>{2b8990b3-6752-4da8-8638-72ba9a628575}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBidiagonalize.h">
+      <Filter>Bidiagonalization</Filter>
+    </ClInclude>
+    <ClInclude Include="GebrdBidiagonalize.h">
+      <Filter>Bidiagonalization</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBdMinSingularValue.h">
+      <Filter>BdMinlSingularValue</Filter>
+    </ClInclude>
+    <ClInclude Include="BdsvdxMinSingularValue.h">
+      <Filter>BdMinlSingularValue</Filter>
+    </ClInclude>
+    <ClInclude Include="IReader.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFileReader.h">
+      <Filter>Reader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GebrdBidiagonalize.cpp">
+      <Filter>Bidiagonalization</Filter>
+    </ClCompile>
+    <ClCompile Include="BdsvdxMinSingularValue.cpp">
+      <Filter>BdMinlSingularValue</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFileReader.cpp">
+      <Filter>Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
 </Project>
