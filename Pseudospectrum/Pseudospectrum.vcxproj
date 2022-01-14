@@ -146,6 +146,7 @@
     <ClCompile Include="BdsvdxMinSingularValue.cpp" />
     <ClCompile Include="GebrdBidiagonalize.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PseudospectrumDomain.cpp" />
     <ClCompile Include="TextFileReader.cpp" />
   </ItemGroup>
   <ItemGroup>

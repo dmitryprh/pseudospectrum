@@ -13,6 +13,9 @@
     <Filter Include="BdMinlSingularValue">
       <UniqueIdentifier>{2b8990b3-6752-4da8-8638-72ba9a628575}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pseudospectrum">
+      <UniqueIdentifier>{16237d1d-a5b2-4bd1-bb57-f5025590eccd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h">
@@ -51,5 +54,8 @@
       <Filter>Reader</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PseudospectrumDomain.cpp">
+      <Filter>Pseudospectrum</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
